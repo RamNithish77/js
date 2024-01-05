@@ -1,0 +1,15 @@
+1.variables
+
+var a = 12;
+var b= 12.3;
+var c="harry";
+
+console.log(typeof a);
+typeof is used k the datatype
+
+const a1=9;
+when cant change the value
+
+let a=99;
+let is global variable
+scope changes with the block
