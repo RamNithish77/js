@@ -13,3 +13,10 @@ when cant change the value
 let a=99;
 let is global variable
 scope changes with the block
+
+//operators + - * / ** ++ -- %
+//assignment operators = += -= *= /=
+//comparision operators == >= <= != ===
+//logical oparators && || !
+//tenary operator a>b?(a-b):(a+b)
+
