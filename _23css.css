@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+img{
+  vertical-align: bottom;
+}
+.con{
+    height: 93px;
+    width: 50vw;
+    position: relative;
+    background-color: black;
+    margin-top:5px;
+    margin-left:5px;
+}
+.duration{
+    position: absolute;
+    width: 42.6px;
+    height: 20px;
+    left: 109.536px;
+    top:62px;
+    right: 0px;
+    margin:4px;
+    display: flex;
+    font-size: 10px;
+    background-color:black;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.text{
+    color: rgb(241, 241, 241);
+    font-weight: bold;
+    color: white;
+}
+.content{
+    height: 90px;
+    color: white;
+    width: 491.619px;
+    display: inline-block;
+}
+h3{
+    font-size:11.7px ;
+    font: weight 700px; ;
+}
+.con1{
+    height: 77px;
+    width: 100%;
+    display: flex;
+}
+.channelname{
+    display: flex;
+    margin-left: 5px;
+    margin-top: 3px;
+    width:100px;
+    height:20px;
+    justify-content: center;
+    align-items: center;
+}
+.views{
+    display: flex;
+    margin-left: 5px;
+    margin-top: 3px;
+    width: 70px;
+    height:20px;
+    justify-content: center;
+    align-items: center;
+}
+.time{
+    display: flex;
+    margin-left: 5px;
+    margin-top: 3px;
+    width: 70px;
+    height:20px;
+    justify-content: center;
+    align-items: center;
+}
+

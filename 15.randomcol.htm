@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .con{
+            display: flex;
+            gap:20px;
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="box">hi</div>
+        <div class="box">hi</div>
+        <div class="box">hi</div>
+        <div class="box">hi</div>
+        <div class="box">hi</div>
+    </div>
+
+    <script>
+        console.log("i am running")
+        document.querySelectorAll(".box").forEach(e=>{
+        e.style.backgroundColor="#"+Math.floor((Math.random()*1000000)+1);
+        })
+        document.querySelectorAll(".box").forEach(f=>{
+        f.style.color="#"+Math.floor((Math.random()*1000000)+1);
+        })
+    </script>
+</body>
+</html>

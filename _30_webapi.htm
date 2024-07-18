@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const naruto={
+        name:"naruto",
+        age:"16",
+        hero:function(){
+            console.log("i am naruto");
+        }
+    }
+    const onepiece={
+        name:"luffy",
+        age:"19",
+        hero:function(){
+            console.log("i am luffy");
+        }
+    }
+   localStorage.setItem("naru",JSON.stringify(naruto));
+   localStorage.setItem("luffy",JSON.stringify(onepiece));
+    const i=JSON.parse(localStorage.getItem("naru"))
+    const j=JSON.parse(localStorage.getItem("luffy"))
+    console.log(i)
+    console.log(j)
+    console.log(localStorage.length)
+    localStorage.clear()
+    console.log(localStorage.length)
+</script>
+</html>
